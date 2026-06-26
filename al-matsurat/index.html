@@ -3,29 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Aplikasi Dzikir Pagi & Sore Al-Ma'tsurat Lengkap dengan Teks Arab, Transliterasi, Terjemahan, Fadhilah, dan Counter Penghitung Interaktif.">
-    <meta name="author" content="Antigravity AI">
-    <title>Al-Ma'tsurat - Dzikir Pagi & Sore Interaktif</title>
+    <meta name="description" content="Aplikasi Dzikir Pagi & Sore Al-Ma'tsurat Sederhana, Cepat, dan 100% Offline-friendly.">
+    <title>Al-Ma'tsurat - Dzikir Pagi & Sore Sederhana</title>
     
-    <!-- Google Fonts: Outfit (Latin) & Amiri (Arabic) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Google Fonts: Outfit & Amiri (loads online, falls back to sans-serif/serif offline) -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <!-- Lucide Icons via CDN -->
-    <script src="https://unpkg.com/lucide@latest"></script>
-    
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="app-container">
         
-        <!-- Header Section -->
+        <!-- Header -->
         <header class="app-header">
             <div class="header-main">
                 <div class="brand">
-                    <div class="logo">✨</div>
+                    <span class="logo-emoji">🕌</span>
                     <div>
                         <h1>Al-Ma'tsurat</h1>
                         <p id="header-time-lbl">Dzikir Pagi & Sore</p>
@@ -33,28 +26,18 @@
                 </div>
                 
                 <div class="header-controls">
-                    <button class="control-btn" id="theme-toggle" title="Ubah Tema">
-                        <i data-lucide="moon" id="theme-icon"></i>
-                    </button>
-                    <button class="control-btn" id="sound-toggle" title="Suara Ketukan">
-                        <i data-lucide="volume-2" id="sound-icon"></i>
-                    </button>
-                    <button class="btn btn-secondary" id="btn-focus-mode">
-                        <i data-lucide="maximize-2"></i>
-                        <span>Mode Fokus</span>
-                    </button>
+                    <button class="control-btn" id="theme-toggle" title="Ubah Tema">🌙</button>
+                    <button class="control-btn" id="sound-toggle" title="Suara Ketukan">🔊</button>
                 </div>
             </div>
 
             <!-- Switcher Tabs (Pagi / Sore) -->
             <div class="mode-switcher-bar">
                 <button class="mode-tab active" id="tab-pagi" data-mode="pagi">
-                    <i data-lucide="sunrise"></i>
-                    <span>Dzikir Pagi</span>
+                    <span>🌅 Dzikir Pagi</span>
                 </button>
                 <button class="mode-tab" id="tab-sore" data-mode="sore">
-                    <i data-lucide="sunset"></i>
-                    <span>Dzikir Sore</span>
+                    <span>🌇 Dzikir Sore</span>
                 </button>
             </div>
         </header>
@@ -67,7 +50,7 @@
                 <div class="progress-panel">
                     <div class="progress-info">
                         <span>Progress Dzikir</span>
-                        <span id="progress-text">0 / 0 Selesai</span>
+                        <span id="progress-text">0 / 10 Selesai (0%)</span>
                     </div>
                     <div class="progress-bar-bg">
                         <div class="progress-bar-fill" id="progress-fill" style="width: 0%;"></div>
@@ -75,11 +58,10 @@
                 </div>
                 
                 <div class="search-box">
-                    <i data-lucide="search" class="search-icon"></i>
+                    <span class="search-icon">🔍</span>
                     <input type="text" id="dzikir-search" placeholder="Cari dzikir, transliterasi, terjemah...">
-                    <button id="btn-reset-all" class="btn btn-text" title="Reset Semua Counter">
-                        <i data-lucide="rotate-ccw"></i>
-                        <span>Reset</span>
+                    <button id="btn-reset-all" class="btn-reset" title="Reset Semua Counter">
+                        🔄 Reset
                     </button>
                 </div>
             </div>
@@ -93,45 +75,17 @@
 
         <!-- Footer -->
         <footer class="app-footer">
-            <p>© 2026 Al-Ma'tsurat Interaktif. Sumber dalil shahih Al-Ma'tsurat Kubra oleh Imam Hasan Al-Banna.</p>
+            <p>© 2026 Al-Ma'tsurat Offline. Desain sederhana & handal.</p>
         </footer>
-    </div>
-
-    <!-- Mode Fokus (Slide View) Overlay -->
-    <div class="focus-overlay hidden" id="focus-overlay-screen">
-        <div class="focus-header">
-            <div class="focus-brand">
-                <span id="focus-mode-badge">Dzikir Pagi</span>
-                <span id="focus-progress-badge">1 / 10</span>
-            </div>
-            <button class="close-focus-btn" id="btn-close-focus" title="Keluar Mode Fokus">
-                <i data-lucide="x"></i>
-            </button>
-        </div>
-        
-        <div class="focus-card-slider">
-            <button class="slider-arrow prev" id="slider-prev"><i data-lucide="chevron-left"></i></button>
-            
-            <div class="focus-card-body" id="focus-card-content">
-                <!-- Loaded dynamically -->
-            </div>
-            
-            <button class="slider-arrow next" id="slider-next"><i data-lucide="chevron-right"></i></button>
-        </div>
-
-        <div class="focus-tap-section" id="focus-tap-area">
-            <div class="tap-circle" id="focus-tap-circle">
-                <span class="tap-label">KETUK DI SINI</span>
-                <h2 class="tap-count" id="focus-tap-count">0</h2>
-                <span class="tap-target" id="focus-tap-target">Target: 3x</span>
-            </div>
-        </div>
     </div>
 
     <!-- Toast Notification -->
     <div id="toast" class="toast hidden">
-        <i data-lucide="info" id="toast-icon"></i>
+        <span id="toast-icon">ℹ️</span>
         <span id="toast-msg">Notifikasi sukses</span>
     </div>
+
+    <!-- Custom JS -->
+    <script src="app.js"></script>
 </body>
 </html>

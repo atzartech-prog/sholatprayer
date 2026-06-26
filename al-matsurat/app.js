@@ -8,15 +8,15 @@ const dzikirDb = [
         target: 1,
         arabic: {
             pagi: "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۚ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۚ وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۚ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ",
-            sore: "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۚ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۚ وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۚ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُ'' الْعَظِيمُ"
+            sore: "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۚ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۚ وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۚ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ"
         },
         transliteration: {
             pagi: "Allahu la ilaha illa huwal hayyul qayyum, la ta'khudhuhu sinatuw wa la nawm, lahu ma fis-samawati wa ma fil-ard, man dhal-ladhi yashfa'u 'indahu illa bi-idhnih, ya'lamu ma bayna aydihim wa ma khalfahum, wa la yuhituna bishay'im min 'ilmihi illa bima sha', wasi'a kursiyyuhus-samawati wal-ard, wa la ya'uduhu hifzuhuma, wa huwal 'aliyyul 'adhim.",
             sore: "Allahu la ilaha illa huwal hayyul qayyum, la ta'khudhuhu sinatuw wa la nawm, lahu ma fis-samawati wa ma fil-ard, man dhal-ladhi yashfa'u 'indahu illa bi-idhnih, ya'lamu ma bayna aydihim wa ma khalfahum, wa la yuhituna bishay'im min 'ilmihi illa bima sha', wasi'a kursiyyuhus-samawati wal-ard, wa la ya'uduhu hifzuhuma, wa huwal 'aliyyul 'adhim."
         },
         translation: {
-            pagi: "Allah, tidak ada Tuhan (yang berhak disembah) melainkan Dia Yang Hidup kekal lagi terus menerus mengurus (makhluk-Nya); tidak mengantuk dan tidak tidur. Kepunyaan-Nya apa yang di langit dan di bumi. Tiada yang dapat memberi syafa'at di sisi Allah tanpa izin-Nya? Allah mengetahui apa-apa yang di hadapan mereka dan di belakang mereka, dan mereka tidak mengetahui apa-apa dari ilmu Allah melainkan apa yang dikehendaki-Nya. Kursi Allah meliputi langit dan bumi. Dan Allah tidak merasa berat memelihara keduanya, dan Allah Maha Tinggi lagi Maha Besar.",
-            sore: "Allah, tidak ada Tuhan (yang berhak disembah) melainkan Dia Yang Hidup kekal lagi terus menerus mengurus (makhluk-Nya); tidak mengantuk dan tidak tidur. Kepunyaan-Nya apa yang di langit dan di bumi. Tiada yang dapat memberi syafa'at di sisi Allah tanpa izin-Nya? Allah mengetahui apa-apa yang di hadapan mereka dan di belakang mereka, dan mereka tidak mengetahui apa-apa dari ilmu Allah melainkan apa yang dikehendaki-Nya. Kursi Allah meliputi langit dan bumi. Dan Allah tidak merasa berat memelihara keduanya, dan Allah Maha Tinggi lagi Maha Besar."
+            pagi: "Allah, tidak ada Tuhan (yang berhak disembah) melainkan Dia Yang Hidup kekal lagi terus menerus mengurus (makhluk-Nya); tidak mengantuk dan tidak tidur. Kepunyaan-Nya apa yang di langit dan di bumi. Tiada yang dapat memberi syafa'at di sisi Allah tanpa izin-Nya. Allah mengetahui apa-apa yang di hadapan mereka dan di belakang mereka, dan mereka tidak mengetahui apa-apa dari ilmu Allah melainkan apa yang dikehendaki-Nya. Kursi Allah meliputi langit dan bumi. Dan Allah tidak merasa berat memelihara keduanya, dan Allah Maha Tinggi lagi Maha Besar.",
+            sore: "Allah, tidak ada Tuhan (yang berhak disembah) melainkan Dia Yang Hidup kekal lagi terus menerus mengurus (makhluk-Nya); tidak mengantuk dan tidak tidur. Kepunyaan-Nya apa yang di langit dan di bumi. Tiada yang dapat memberi syafa'at di sisi Allah tanpa izin-Nya. Allah mengetahui apa-apa yang di hadapan mereka dan di belakang mereka, dan mereka tidak mengetahui apa-apa dari ilmu Allah melainkan apa yang dikehendaki-Nya. Kursi Allah meliputi langit dan bumi. Dan Allah tidak merasa berat memelihara keduanya, dan Allah Maha Tinggi lagi Maha Besar."
         },
         fadhilah: "Membaca ayat ini di pagi hari akan dilindungi dari gangguan setan hingga sore hari. Membaca di sore hari melindungi dari setan hingga pagi hari. (HR. Al-Hakim)",
     },
@@ -25,8 +25,8 @@ const dzikirDb = [
         title: "Membaca Surah Al-Ikhlas, Al-Falaq, & An-Nas",
         target: 3,
         arabic: {
-            pagi: "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ. قُلْ هُوَ اللَّهُ أَحَدٌ... قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ... قُل *أَعُوذُ بِرَبِّ النَّاسِ...",
-            sore: "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ. قُلْ هُوَ اللَّهُ أَحَدٌ... قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ... قُل *أَعُوذُ بِرَبِّ النَّاسِ..."
+            pagi: "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ. قُلْ هُوَ اللَّهُ أَحَدٌ... قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ... قُلْ أَعُوذُ بِرَبِّ النَّاسِ...",
+            sore: "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ. قُلْ هُوَ اللَّهُ أَحَدٌ... قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ... قُلْ أَعُوذُ بِرَبِّ النَّاسِ..."
         },
         transliteration: {
             pagi: "Membaca Qul Huwallahu Ahad, Qul A'udhu bi Rabbil Falaq, dan Qul A'udhu bi Rabbin Nas (Masing-masing 3 kali)",
@@ -115,7 +115,7 @@ const dzikirDb = [
         title: "Sayyidul Istighfar (Rajanya Istighfar)",
         target: 1,
         arabic: {
-            pagi: "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ",
+            pagi: "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ bِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ",
             sore: "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ"
         },
         transliteration: {
@@ -191,9 +191,6 @@ const state = {
     mode: 'pagi', // 'pagi' | 'sore'
     searchQuery: '',
     soundEnabled: JSON.parse(localStorage.getItem('matsurat_sound')) ?? true,
-    focusMode: false,
-    focusIndex: 0,
-    // Counters storage structure: { pagi: { id_1: 0, id_2: 0 }, sore: { id_1: 0 } }
     counters: JSON.parse(localStorage.getItem('matsurat_counters')) || { pagi: {}, sore: {} }
 };
 
@@ -218,25 +215,23 @@ function playAudioTick(type = 'tick') {
         gain.connect(audioCtx.destination);
 
         if (type === 'tick') {
-            // High woodblock tick
             osc.frequency.setValueAtTime(1000, audioCtx.currentTime);
             osc.frequency.exponentialRampToValueAtTime(400, audioCtx.currentTime + 0.04);
-            gain.gain.setValueAtTime(0.12, audioCtx.currentTime);
+            gain.gain.setValueAtTime(0.1, audioCtx.currentTime);
             gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.04);
             osc.start();
             osc.stop(audioCtx.currentTime + 0.05);
         } else if (type === 'chime') {
-            // Double metallic chime
             osc.type = 'triangle';
-            osc.frequency.setValueAtTime(987.77, audioCtx.currentTime); // B5
-            osc.frequency.setValueAtTime(1318.51, audioCtx.currentTime + 0.06); // E6
-            gain.gain.setValueAtTime(0.18, audioCtx.currentTime);
+            osc.frequency.setValueAtTime(987.77, audioCtx.currentTime);
+            osc.frequency.setValueAtTime(1318.51, audioCtx.currentTime + 0.06);
+            gain.gain.setValueAtTime(0.15, audioCtx.currentTime);
             gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.4);
             osc.start();
             osc.stop(audioCtx.currentTime + 0.5);
         }
     } catch (e) {
-        console.warn("AudioContext interaction required: ", e);
+        console.warn("AudioContext block: ", e);
     }
 }
 
@@ -252,10 +247,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById('tab-sore').classList.add('active');
     }
     
-    // Set headers
     updateHeaderTime();
-    
-    // Setup event handlers
     initEventListeners();
     
     // Set Theme
@@ -263,14 +255,12 @@ document.addEventListener("DOMContentLoaded", () => {
     document.documentElement.setAttribute('data-theme', savedTheme);
     updateThemeIcon(savedTheme);
     
-    // Set Sound icon status
+    // Set Sound status
     updateSoundIcon();
 
     // Render list
     renderDzikirList();
     updateProgress();
-    
-    lucide.createIcons();
 });
 
 function updateHeaderTime() {
@@ -281,7 +271,7 @@ function updateHeaderTime() {
 }
 
 function initEventListeners() {
-    // Mode switcher buttons
+    // Switch morning/evening
     document.getElementById('tab-pagi').addEventListener('click', () => switchMode('pagi'));
     document.getElementById('tab-sore').addEventListener('click', () => switchMode('sore'));
 
@@ -299,28 +289,6 @@ function initEventListeners() {
 
     // Reset button
     document.getElementById('btn-reset-all').addEventListener('click', resetAllCounters);
-
-    // Focus mode controls
-    document.getElementById('btn-focus-mode').addEventListener('click', openFocusMode);
-    document.getElementById('btn-close-focus').addEventListener('click', closeFocusMode);
-    document.getElementById('slider-prev').addEventListener('click', prevFocusCard);
-    document.getElementById('slider-next').addEventListener('click', nextFocusCard);
-    document.getElementById('focus-tap-area').addEventListener('click', tapFocusArea);
-    
-    // Keyboard navigation in focus mode
-    document.addEventListener('keydown', (e) => {
-        if (!state.focusMode) return;
-        if (e.code === 'Space') {
-            e.preventDefault();
-            tapFocusArea();
-        } else if (e.code === 'ArrowLeft') {
-            prevFocusCard();
-        } else if (e.code === 'ArrowRight') {
-            nextFocusCard();
-        } else if (e.code === 'Escape') {
-            closeFocusMode();
-        }
-    });
 }
 
 /* ==========================================================================
@@ -331,12 +299,11 @@ function switchMode(newMode) {
     document.getElementById('tab-pagi').classList.toggle('active', newMode === 'pagi');
     document.getElementById('tab-sore').classList.toggle('active', newMode === 'sore');
     
-    // Update headers and lists
     updateHeaderTime();
     renderDzikirList();
     updateProgress();
     
-    showToast(`Beralih ke Dzikir ${newMode === 'pagi' ? 'Pagi' : 'Sore'}.`, newMode === 'pagi' ? 'sunrise' : 'sunset');
+    showToast(`Beralih ke Dzikir ${newMode === 'pagi' ? 'Pagi' : 'Sore'}.`);
 }
 
 function toggleTheme() {
@@ -345,30 +312,24 @@ function toggleTheme() {
     document.documentElement.setAttribute('data-theme', newTheme);
     localStorage.setItem('theme', newTheme);
     updateThemeIcon(newTheme);
-    showToast("Tema berhasil diubah!", "sun");
+    showToast("Tema berhasil diubah!");
 }
 
 function updateThemeIcon(theme) {
-    const icon = document.getElementById('theme-icon');
-    if (theme === 'light') {
-        icon.setAttribute('data-lucide', 'sun');
-    } else {
-        icon.setAttribute('data-lucide', 'moon');
-    }
-    lucide.createIcons();
+    const btn = document.getElementById('theme-toggle');
+    btn.innerText = theme === 'light' ? '🌙' : '☀️';
 }
 
 function toggleSound() {
     state.soundEnabled = !state.soundEnabled;
     localStorage.setItem('matsurat_sound', JSON.stringify(state.soundEnabled));
     updateSoundIcon();
-    showToast(`Suara ketukan ${state.soundEnabled ? 'diaktifkan' : 'dimatikan'}.`, state.soundEnabled ? 'volume-2' : 'volume-x');
+    showToast(`Suara ketukan ${state.soundEnabled ? 'diaktifkan' : 'dimatikan'}.`);
 }
 
 function updateSoundIcon() {
-    const icon = document.getElementById('sound-icon');
-    icon.setAttribute('data-lucide', state.soundEnabled ? 'volume-2' : 'volume-x');
-    lucide.createIcons();
+    const btn = document.getElementById('sound-toggle');
+    btn.innerText = state.soundEnabled ? '🔊' : '🔇';
 }
 
 /* ==========================================================================
@@ -388,12 +349,10 @@ function renderDzikirList() {
     if (filtered.length === 0) {
         container.innerHTML = `
             <div class="empty-state">
-                <i data-lucide="search"></i>
                 <h3>Hasil tidak ditemukan</h3>
                 <p>Tidak ada doa atau dzikir yang cocok dengan kata kunci "${state.searchQuery}".</p>
             </div>
         `;
-        lucide.createIcons();
         return;
     }
 
@@ -411,12 +370,8 @@ function renderDzikirList() {
                     <span class="read-badge">${item.target}x</span>
                 </div>
                 <div class="card-top-actions">
-                    <button class="icon-action-btn" title="Dengarkan Pembacaan" onclick="readDua(${item.id})">
-                        <i data-lucide="volume-2"></i>
-                    </button>
-                    <button class="icon-action-btn" title="Salin Teks" onclick="copyDzikirText(${item.id})">
-                        <i data-lucide="copy"></i>
-                    </button>
+                    <button class="icon-action-btn" title="Dengarkan Pembacaan" onclick="readDua(${item.id})">🗣️</button>
+                    <button class="icon-action-btn" title="Salin Teks" onclick="copyDzikirText(${item.id})">📋</button>
                 </div>
             </div>
             
@@ -435,15 +390,12 @@ function renderDzikirList() {
             <div class="card-counter-row">
                 <span class="counter-label-text">Perkembangan: <span id="label-count-${item.id}">${count}</span> / ${item.target}</span>
                 <button class="counter-interactive-btn ${isCompleted ? 'done' : ''}" id="btn-count-${item.id}" onclick="tapDzikir(${item.id})">
-                    <i data-lucide="${isCompleted ? 'check-circle' : 'plus'}"></i>
-                    <span id="btn-text-${item.id}">${isCompleted ? 'Selesai' : 'Ketuk'}</span>
+                    <span id="btn-text-${item.id}">${isCompleted ? 'Selesai ✓' : 'Ketuk +'}</span>
                 </button>
             </div>
         `;
         container.appendChild(card);
     });
-
-    lucide.createIcons();
 }
 
 function tapDzikir(id) {
@@ -456,22 +408,19 @@ function tapDzikir(id) {
         state.counters[state.mode][id] = current;
         saveCounters();
         
-        // Audio tick or chime
         if (current === item.target) {
             playAudioTick('chime');
-            showToast(`Dzikir "${item.title}" selesai dibaca!`, "check-circle");
+            showToast(`Selesai dibaca: ${item.title}`);
         } else {
             playAudioTick('tick');
         }
 
-        // Update list card UI
         document.getElementById(`label-count-${id}`).innerText = current;
         if (current >= item.target) {
             const btn = document.getElementById(`btn-count-${id}`);
             btn.classList.add('done');
-            btn.innerHTML = `<i data-lucide="check-circle"></i><span>Selesai</span>`;
+            btn.innerText = "Selesai ✓";
             btn.closest('.dzikir-card').classList.add('completed');
-            lucide.createIcons();
         }
 
         updateProgress();
@@ -479,12 +428,12 @@ function tapDzikir(id) {
 }
 
 function resetAllCounters() {
-    if (confirm("Apakah Anda yakin ingin me-reset seluruh hitungan dzikir untuk sesi ini?")) {
+    if (confirm("Apakah Anda yakin ingin me-reset seluruh hitungan dzikir?")) {
         state.counters[state.mode] = {};
         saveCounters();
         renderDzikirList();
         updateProgress();
-        showToast("Seluruh hitungan dzikir di-reset.", "rotate-ccw");
+        showToast("Hitungan di-reset");
     }
 }
 
@@ -511,109 +460,8 @@ function updateProgress() {
 }
 
 /* ==========================================================================
-   FOCUS / FOCUS CARD SLIDER MODE
-   ========================================================================== */
-function openFocusMode() {
-    state.focusMode = true;
-    state.focusIndex = 0;
-    
-    const screen = document.getElementById('focus-overlay-screen');
-    screen.classList.remove('hidden');
-    
-    // Add layout modifiers
-    const badge = document.getElementById('focus-mode-badge');
-    badge.closest('.focus-brand').classList.toggle('sore-mode', state.mode === 'sore');
-    badge.innerText = state.mode === 'pagi' ? 'Dzikir Pagi' : 'Dzikir Sore';
-
-    renderFocusCard();
-    lucide.createIcons();
-}
-
-function closeFocusMode() {
-    state.focusMode = false;
-    document.getElementById('focus-overlay-screen').classList.add('hidden');
-    renderDzikirList(); // Refresh normal list screen
-}
-
-function renderFocusCard() {
-    const container = document.getElementById('focus-card-content');
-    container.innerHTML = '';
-    
-    const item = dzikirDb[state.focusIndex];
-    if (!item) return;
-
-    // Progress
-    document.getElementById('focus-progress-badge').innerText = `${state.focusIndex + 1} / ${dzikirDb.length}`;
-
-    // Load body content
-    container.innerHTML = `
-        <h3>${item.title}</h3>
-        <p class="arabic-text">${item.arabic[state.mode]}</p>
-        <p class="transliteration">${item.transliteration[state.mode]}</p>
-        <p class="translation">"${item.translation[state.mode]}"</p>
-    `;
-
-    // Reset circle and tap display
-    const count = state.counters[state.mode][item.id] || 0;
-    const isCompleted = count >= item.target;
-    
-    const tapCircle = document.getElementById('focus-tap-circle');
-    const countTxt = document.getElementById('focus-tap-count');
-    const targetTxt = document.getElementById('focus-tap-target');
-
-    countTxt.innerText = count;
-    targetTxt.innerText = `Target: ${item.target}x`;
-
-    tapCircle.className = `tap-circle ${isCompleted ? 'done' : ''}`;
-    tapCircle.querySelector('.tap-label').innerText = isCompleted ? 'SELESAI' : 'KETUK DI SINI';
-}
-
-function tapFocusArea() {
-    const item = dzikirDb[state.focusIndex];
-    if (!item) return;
-
-    let current = state.counters[state.mode][item.id] || 0;
-    
-    if (current < item.target) {
-        current++;
-        state.counters[state.mode][item.id] = current;
-        saveCounters();
-
-        if (current === item.target) {
-            playAudioTick('chime');
-            showToast(`Dzikir "${item.title}" selesai!`, "check-circle");
-        } else {
-            playAudioTick('tick');
-        }
-
-        renderFocusCard();
-        updateProgress();
-    }
-}
-
-function prevFocusCard() {
-    if (state.focusIndex > 0) {
-        state.focusIndex--;
-        renderFocusCard();
-    } else {
-        showToast("Ini adalah dzikir pertama.", "info");
-    }
-}
-
-function nextFocusCard() {
-    if (state.focusIndex < dzikirDb.length - 1) {
-        state.focusIndex++;
-        renderFocusCard();
-    } else {
-        showToast("Anda sudah berada di akhir sesi dzikir.", "award");
-    }
-}
-
-/* ==========================================================================
    TEXT TO SPEECH (TTS) & SHARING
    ========================================================================== */
-let speechUtterance = null;
-
 function readDua(id) {
     const item = dzikirDb.find(d => d.id === id);
     if (!item) return;
@@ -621,19 +469,19 @@ function readDua(id) {
     if ('speechSynthesis' in window) {
         if (window.speechSynthesis.speaking) {
             window.speechSynthesis.cancel();
-            showToast("Pembacaan suara dihentikan.", "volume-x");
+            showToast("Bicara dihentikan");
             return;
         }
 
         const readingText = `${item.title}. Terjemahan: ${item.translation[state.mode]}`;
-        speechUtterance = new SpeechSynthesisUtterance(readingText);
-        speechUtterance.lang = 'id-ID';
-        speechUtterance.rate = 0.95;
+        const utterance = new SpeechSynthesisUtterance(readingText);
+        utterance.lang = 'id-ID';
+        utterance.rate = 0.95;
 
-        window.speechSynthesis.speak(speechUtterance);
-        showToast("Membaca terjemah...", "volume-2");
+        window.speechSynthesis.speak(utterance);
+        showToast("Membaca arti...");
     } else {
-        showToast("Fitur suara tidak didukung browser.", "volume-x");
+        showToast("Browser tidak mendukung suara");
     }
 }
 
@@ -641,10 +489,10 @@ function copyDzikirText(id) {
     const item = dzikirDb.find(d => d.id === id);
     if (!item) return;
 
-    const shareTxt = `✨ *Dzikir ${state.mode === 'pagi' ? 'Pagi' : 'Sore'} Al-Ma'tsurat: ${item.title}* (${item.target}x)\n\n"${item.arabic[state.mode]}"\n\n_Artinya: "${item.translation[state.mode]}"_\n\n*Keutamaan:* ${item.fadhilah}\n\n_Aplikasi Al-Ma'tsurat Interaktif_`;
+    const shareTxt = `✨ *Dzikir ${state.mode === 'pagi' ? 'Pagi' : 'Sore'} Al-Ma'tsurat: ${item.title}* (${item.target}x)\n\n"${item.arabic[state.mode]}"\n\n_Artinya: "${item.translation[state.mode]}"_\n\n*Keutamaan:* ${item.fadhilah}`;
 
     navigator.clipboard.writeText(shareTxt).then(() => {
-        showToast("Teks dzikir disalin!", "copy");
+        showToast("Dzikir disalin!");
     }).catch(err => {
         console.error("Gagal menyalin: ", err);
     });
@@ -653,18 +501,16 @@ function copyDzikirText(id) {
 /* ==========================================================================
    TOAST SYSTEM
    ========================================================================== */
-function showToast(message, iconName = 'info') {
+let toastTimeout = null;
+function showToast(message) {
     const toast = document.getElementById('toast');
     const toastMsg = document.getElementById('toast-msg');
-    const toastIcon = document.getElementById('toast-icon');
 
     toastMsg.innerText = message;
-    toastIcon.setAttribute('data-lucide', iconName);
-    lucide.createIcons();
-
     toast.classList.remove('hidden');
 
-    setTimeout(() => {
+    if (toastTimeout) clearTimeout(toastTimeout);
+    toastTimeout = setTimeout(() => {
         toast.classList.add('hidden');
-    }, 2800);
+    }, 2500);
 }
